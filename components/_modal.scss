@@ -1,6 +1,4 @@
 .modal {
-  @extend .z-depth-4;
-
   display: none;
   position: fixed;
   left: 0;
@@ -43,6 +41,20 @@
     }
   }
 }
+
+.potato-modal{
+    @extend .modal;
+    background-color: rgba(28, 28, 28, 0);
+
+    .modal-footer {
+      background-color: rgba(28, 28, 28, 0);
+
+      .btn, .btn-flat {
+        float: none;
+      }
+    }
+}
+
 .modal-overlay {
   position: fixed;
   z-index: 999;
