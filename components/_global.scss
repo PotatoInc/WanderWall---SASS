@@ -494,8 +494,6 @@ td, th{
 // Collections
 .collection {
   margin: $element-top-margin 0 $element-bottom-margin 0;
-  border: 1px solid $collection-border-color;
-  border-radius: 2px;
   overflow: hidden;
   position: relative;
 
@@ -504,7 +502,6 @@ td, th{
     line-height: 1.5rem;
     padding: 10px 20px;
     margin: 0;
-    border-bottom: 1px solid $collection-border-color;
 
     // Avatar Collection
     &.avatar {
