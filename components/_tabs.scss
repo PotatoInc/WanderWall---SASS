@@ -45,7 +45,6 @@
     height: 48px;
     padding: 0;
     margin: 0;
-    text-transform: uppercase;
 
     a {
       &:hover,
@@ -63,6 +62,7 @@
       text-overflow: ellipsis;
       overflow: hidden;
       transition: color .28s ease;
+      font-weight: bold;
     }
 
     &.disabled a,
@@ -74,7 +74,7 @@
   .indicator {
     position: absolute;
     bottom: 0;
-    height: 2px;
+    height: 3px;
     background-color: $tabs-underline-color;
     will-change: left, right;
   }
